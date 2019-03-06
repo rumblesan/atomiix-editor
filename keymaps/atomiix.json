@@ -1,0 +1,5 @@
+{
+  "atom-workspace atom-text-editor[data-grammar~='atomiix']": {
+    "ctrl-enter": "atomiix:send"
+  }
+}
