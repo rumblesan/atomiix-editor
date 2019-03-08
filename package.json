@@ -13,7 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@atomiix/atomiix": "0.1.0",
+    "@atomiix/atomiix": "0.1.2",
     "osc-min": "1.1.1"
   }
 }
