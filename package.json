@@ -5,7 +5,7 @@
   "description": "An atom plugin for Atomiix",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "atomiix:send"
+    "atom-workspace": "atomiix:interpret"
   },
   "repository": "https://github.com/rumblesan/atomiix-editor",
   "license": "BSD-3-Clause",
@@ -13,7 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@atomiix/atomiix": "0.1.2",
+    "@atomiix/atomiix": "0.1.3",
     "osc-min": "1.1.1"
   }
 }

@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Send to Atomiix",
-        "command": "atomiix:send"
+        "label": "Interpret Atomiix code",
+        "command": "atomiix:interpret"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "Atomiix",
           "submenu": [
             {
-              "label": "Send",
-              "command": "atomiix:send"
+              "label": "Interpret",
+              "command": "atomiix:interpret"
             }
           ]
         }
