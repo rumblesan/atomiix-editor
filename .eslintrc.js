@@ -1,7 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
   env: {
-    browser: true,
     es6: true,
     node: true,
     jest: true,
@@ -16,5 +15,9 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['error', 'always'],
+    'no-console': 'off',
+  },
+  globals: {
+    atom: 'readonly',
   },
 };
