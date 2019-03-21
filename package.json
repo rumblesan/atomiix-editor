@@ -4,9 +4,6 @@
   "version": "0.1.0",
   "description": "An atom plugin for Atomiix",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "atomiix:interpret"
-  },
   "repository": "https://github.com/rumblesan/atomiix-editor",
   "license": "BSD-3-Clause",
   "engines": {
