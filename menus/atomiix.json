@@ -1,11 +1,6 @@
 {
   "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Interpret Atomiix code",
-        "command": "atomiix:interpret"
-      }
-    ]
+    "atom-text-editor": []
   },
   "menu": [
     {
@@ -15,8 +10,12 @@
           "label": "Atomiix",
           "submenu": [
             {
-              "label": "Interpret",
-              "command": "atomiix:interpret"
+              "label": "Start Atomiix",
+              "command": "atomiix:start"
+            },
+            {
+              "label": "Evaluate Code",
+              "command": "atomiix:evaluate"
             }
           ]
         }

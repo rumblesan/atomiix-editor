@@ -1,8 +1,8 @@
 {
   "atom-workspace atom-text-editor[data-grammar~='atomiix']": {
-    "ctrl-enter": "atomiix:interpret",
-    "alt-right": "atomiix:interpret",
-    "alt-up": "atomiix:interpret",
+    "ctrl-enter": "atomiix:evaluate",
+    "alt-right": "atomiix:evaluate",
+    "alt-up": "atomiix:evaluate",
     "alt-left": "atomiix:freeAgent"
   }
 }
