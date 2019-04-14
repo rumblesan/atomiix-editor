@@ -43,6 +43,12 @@ atom-panel div.atomiix.console {
   pre {
     font-family: Consolas, monospace;
     font-size: 14px;
+    padding: 0px 3px;
+    border-radius: 0px;
+    &:before {
+      content: "\00BB";
+      margin-right: 6px;
+    }
   }
   .error{
     color: @text-color-error;
