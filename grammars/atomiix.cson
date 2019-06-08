@@ -10,4 +10,8 @@
     'name': 'constant.numeric.atomiix'
   }
 
+  {
+    'match': '\\|.*?\\|'
+    'name': 'string.single.atomiix'
+  }
 ]
