@@ -5,18 +5,22 @@
 'name': 'Atomiix'
 'patterns': [
 
+  # melodic scores
   {
     'match': '\\[.*?\\]'
     'name': 'constant.numeric.atomiix'
   }
 
+  # percussive scores
   {
     'match': '\\|.*?\\|'
     'name': 'string.single.atomiix'
   }
 
+  # concrete scores
   {
     'match': '\\{.*?\\}'
     'name': 'storage.atomiix'
   }
+
 ]
