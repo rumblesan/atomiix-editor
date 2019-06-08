@@ -23,4 +23,9 @@
     'name': 'storage.atomiix'
   }
 
+  # arrow operator
+  {
+    'match': '\-\>'
+    'name': 'keyword.operator.atomiix'
+  }
 ]
