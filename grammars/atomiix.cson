@@ -28,4 +28,10 @@
     'match': '\-\>'
     'name': 'keyword.operator.atomiix'
   }
+
+  # bracket operator
+  {
+    'match': '\\(\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b\\)'
+    'name': 'support.function.atomiix'
+  }
 ]
