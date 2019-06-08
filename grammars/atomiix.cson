@@ -3,4 +3,11 @@
   'atomiix', 'ixi'
 ]
 'name': 'Atomiix'
-'patterns': []
+'patterns': [
+
+  {
+    'match': '\\[.*?\\]'
+    'name': 'constant.numeric.atomiix'
+  }
+
+]
