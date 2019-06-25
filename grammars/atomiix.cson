@@ -64,4 +64,10 @@
     'match': '\\/\\*[\\s\\S]*?\\*\\/|([^\\\\:]|^)\\/\\/.*$'
     'name': 'comment.atomiix'
   }
+
+  # functions
+  {
+    'match': '^\\bshake|^\\breverse|^\\bshiftr|^\\bshiftl|^\\bup|^\\bdown|^\\byoyo|^\\bswap|^\\border|^\\binvert|^\\breplace|^\\bremove|^\\binsert|^\\bexpand|^\\bdave'
+    'name': 'entity.name.function.atomiix'
+  }
 ]
