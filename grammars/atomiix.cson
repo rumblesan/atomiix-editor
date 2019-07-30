@@ -58,4 +58,10 @@
     'match': '(\\w+\\s+\\(\\()|(\\w+\\s+\\)\\))'
     'name': 'variable.parameter.atomiix'
   }
+
+  # comments
+  {
+    'match': '\\/\\*[\\s\\S]*?\\*\\/|([^\\\\:]|^)\\/\\/.*$'
+    'name': 'comment.atomiix'
+  }
 ]
