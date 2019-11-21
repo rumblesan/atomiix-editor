@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@atomiix/atomiix": "1.6.1",
-    "osc-min": "1.1.1"
+    "osc-min": "rumblesan/node-osc-min#uint-timestamp"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
