@@ -10,8 +10,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@atomiix/atomiix": "1.6.2",
-    "osc-min": "rumblesan/node-osc-min#uint-timestamp"
+    "@atomiix/atomiix": "1.6.3"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
