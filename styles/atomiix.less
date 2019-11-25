@@ -69,3 +69,62 @@ atom-panel div.atomiix.console {
     color: @text-color-error;
   }
 }
+
+atom-panel .atomiix-help {
+  @min-width: 100px;
+  padding: 3px;
+  overflow: scroll;
+
+  .header {
+    padding: @component-padding/4 @component-padding/2;
+    min-width: @min-width;
+    line-height: 1.75;
+  }
+  .header-item {
+    margin: @component-padding/4 0;
+  }
+  .description {
+    display: inline-block;
+    .subtle-info-message {
+      padding-left: 5px;
+      color: @text-color-subtle;
+      .highlight {
+        color: @text-color;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .btn > .icon {
+    width: 20px;
+    height: 16px;
+    vertical-align: middle;
+    fill: currentColor;
+    stroke: currentColor;
+    pointer-events: none;
+  }
+
+  .close-button {
+    margin-left: @component-padding;
+    cursor: pointer;
+    color: @text-color-subtle;
+    &:hover {
+      color: @text-color-highlight;
+    }
+    .icon::before {
+      margin-right: 0;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+
+  .help-info-block {
+    width: 100%;
+  }
+
+  ul {
+    padding-inline-start: 20px;
+  }
+
+
+}
